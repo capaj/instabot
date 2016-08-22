@@ -2,14 +2,10 @@
 import test from 'ava'
 import cp from 'child_process'
 
-test.cb('rethrows in production, installs module in other', (t) => {
+test.cb('installs missing module', (t) => {
   process.on = (evName, cb) => {
     t.is(evName, 'uncaughtException')
-    process.env.NODE_ENV = 'production'
-    t.notThrows(() => {
-      cb(new Error("Cannot find module 'koa'"))
-    })
-    delete process.env.NODE_ENV
+
     t.notThrows(() => {
       cb(new Error("random err"))
     })
