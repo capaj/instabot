@@ -2,7 +2,7 @@ const cp = require('child_process')
 
 process.on('uncaughtException', (err) => {
   if (process.env.NODE_ENV === 'production') {
-    throw err
+    return console.error(err)
   }
   const match = String(err).match(/Cannot find module '(.*)'/)
   if (match && !match[1].startsWith('.')) {
@@ -14,6 +14,6 @@ process.on('uncaughtException', (err) => {
       console.log(install.stdout)
     }
   } else {
-    throw err
+    console.error(err)
   }
 })

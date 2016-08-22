@@ -1,6 +1,6 @@
 {
   "name": "instabot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "never write npm install again-a tiny script for auto installing missing npm dependencie",
   "main": "instabot.js",
   "scripts": {
