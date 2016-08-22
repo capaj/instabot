@@ -21,4 +21,6 @@ import 'instabot'
 It is very lightweight and as fast as doing npm install yourself-it utili
 
 ## Notice
+Does not work in `NODE_ENV=production`. It just doesn't do anything by design.
+
 It is probably a good idea to run [npm-check](https://github.com/dylang/npm-check) to make sure you're not having some unused npm dependencies once in a while, as it it is easy to leave some unused dependencies behind after rapid prototyping session.
