@@ -1,5 +1,5 @@
 # instabot
-a tiny script(like under 20 lines) for installing missing npm dependencie which works well with nodemon, similar to [this webpack plugin](https://github.com/ericclemmons/npm-install-webpack-plugin) but for backend use.
+This is not an intagram bot. It's a tiny script(like under 20 lines) for installing missing npm dependencie which works well with nodemon, similar to [this webpack plugin](https://github.com/ericclemmons/npm-install-webpack-plugin) but for backend use.
 
 ## installation
 
