@@ -18,7 +18,7 @@ require('instabot')
 import 'instabot'
 ```
 
-It is very lightweight and as fast as doing npm install yourself-it utili
+It is very lightweight and as fast as doing npm install yourself-it just runs the same command from node.js itself.
 
 ## Notice
 Does not work in `NODE_ENV=production`. It just doesn't do anything by design.
