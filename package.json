@@ -1,13 +1,13 @@
 {
   "name": "instabot",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "never write npm install again-a tiny script for auto installing missing npm dependencie",
   "main": "instabot.js",
   "scripts": {
     "test": "ava"
   },
   "engines": {
-    "node": "^4"
+    "node": ">=4"
   },
   "repository": {
     "type": "git",
